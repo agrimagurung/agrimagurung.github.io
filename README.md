@@ -1,8 +1,9 @@
 <nav>
   <a href="#home">Home</a> |
   <a href="#assessment">Professional Self-Assessment</a> |
-  <a href="#code-review">Code Review</a> |
-  <a href="#projects">Projects</a>
+  <a href="#code-review">Software Design and Engineering</a> |
+  <a href="#code-review">Algorithms and Data Structure</a> |
+  <a href="#code-review">Databases</a> |
 </nav>
 
 

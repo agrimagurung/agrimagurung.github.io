@@ -1,9 +1,9 @@
 <nav>
-  <a href="https://agrimagurung.github.io/">Home</a> |
-  <a href="#code-review">Code Review</a> |
-  <a href="#enhancement-one">Software Design and Engineering</a> |
-  <a href="#enhancement-two">Algorithms and Data Structure</a> |
-  <a href="#enhancement-three">Databases</a> |
+  <a href="index.html">Home</a> |
+  <a href="code-review.html">Code Review</a> |
+  <a href="enhancement-one.html">Software Design and Engineering</a> |
+  <a href="enhancement-two.html">Algorithms and Data Structure</a> |
+  <a href="enhancement-three.html">Databases</a>
 </nav>
 
 

@@ -1,5 +1,5 @@
 <nav>
-  <a href="#home">Home</a> |
+  <a href="https://agrimagurung.github.io/">Home</a> |
   <a href="#code-review">Code Review</a> |
   <a href="#enhancement-one">Software Design and Engineering</a> |
   <a href="#enhancement-two">Algorithms and Data Structure</a> |

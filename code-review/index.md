@@ -16,7 +16,15 @@
   developed throughout my computer science coursework to better understand how 
   professional developers assess and improve code quality.
 
-  This review helped me strengthen my ability to evaluate full-stack applications 
+  This review was guided by a structured code review checklist provided in the course, 
+  which helped ensure that I thoroughly evaluated key areas of the codebase such as 
+  functionality, readability, security, modularity, and performance. Using this checklist 
+  allowed me to systematically assess each artifact rather than focusing only on surface-level functionality.
+
+  You can view the checklist here for reference:  
+  📄 <a href="/assets/code-review-checklist.pdf" target="_blank">Code Review Checklist (PDF)</a>
+
+  This process helped me strengthen my ability to evaluate full-stack applications 
   beyond functionality, focusing instead on architecture, scalability, and adherence 
   to best practices.
 

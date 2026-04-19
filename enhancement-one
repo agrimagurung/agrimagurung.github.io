@@ -1,59 +1,50 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Enhancement One – Software Design & Engineering</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
 <nav>
-  <a href="index.html">Home</a> |
-  <a href="code-review.html">Code Review</a> |
-  <a href="enhancement-one.html">Software Design and Engineering</a> |
-  <a href="enhancement-two.html">Algorithms and Data Structure</a> |
-  <a href="enhancement-three.html">Databases</a>
+  <a href="https://agrimagurung.github.io/">Home</a> |
+  <a href="#code-review">Code Review</a> |
+  <a href="#enhancement-one">Software Design and Engineering</a> |
+  <a href="#enhancement-two">Algorithms and Data Structure</a> |
+  <a href="#enhancement-three">Databases</a>
 </nav>
 
-<h2>Enhancement One: Software Design & Engineering</h2>
+# Enhancement One: Software Design & Engineering
 
-<h3>Artifact Overview</h3>
-<p>
-  The artifact selected for this enhancement is the <strong>Travlr Getaways</strong> 
+## Artifact Overview
+
+  The artifact selected for this enhancement is the **Travlr Getaways** 
   full‑stack web application originally developed in CS 465. The project uses the 
   MEAN stack (MongoDB, Express.js, Angular, Node.js) and allows users to view and 
   manage travel itineraries. The original version included user authentication but 
   did not implement fine‑grained access control.
-</p>
 
-<h3>Reason for Selection</h3>
-<p>
+
+## Reason for Selection
+
   I selected this artifact because it demonstrates real‑world full‑stack development 
   and provides a strong foundation for improving software architecture, security, 
   and maintainability. Implementing Role‑Based Access Control (RBAC) adds meaningful 
   complexity and aligns with industry standards for secure application design.
-</p>
 
-<h3>Original Code</h3>
-<p>
+
+## Original Code
+
   View the original version of the project here:  
   <a href="LINK_TO_ORIGINAL_CODE" target="_blank">Original Travlr Getaways Code</a>
-</p>
 
-<h3>Enhanced Code</h3>
-<p>
+
+## Enhanced Code
+
   View the enhanced version with RBAC implemented here:  
   <a href="LINK_TO_ENHANCED_CODE" target="_blank">Enhanced Travlr Getaways Code</a>
-</p>
 
-<h3>Planned Enhancement: Role‑Based Access Control (RBAC)</h3>
-<p>
+
+## Planned Enhancement: Role‑Based Access Control (RBAC)
+
   The enhancement introduces RBAC to ensure that only authorized users can perform 
   sensitive operations. Admin users can create, edit, and delete trips, while regular 
   users have read‑only access.
-</p>
 
-<pre>
+
+```
 User logs in
       ↓
 Authenticate user with Passport.js
@@ -68,29 +59,31 @@ If Admin → Allow create/edit/delete trips
 If User → Allow read-only access
       ↓
 Return response
-</pre>
+```
 
-<h3>Skills Demonstrated</h3>
-<ul>
-  <li>Secure authentication and authorization workflows</li>
-  <li>Modular server‑side architecture using Express middleware</li>
-  <li>JWT‑based role validation</li>
-  <li>Improved API design and maintainability</li>
-  <li>Secure coding practices and vulnerability mitigation</li>
-</ul>
+## Skills Demonstrated
 
-<h3>Alignment to Course Outcomes</h3>
-<p>
-  <strong>Outcome 3:</strong> Designing and evaluating secure computing solutions by 
-  implementing RBAC and enforcing architectural safeguards.<br>
-  <strong>Outcome 4:</strong> Applying well‑founded techniques such as JWT authentication, 
-  middleware design, and secure API patterns.<br>
-  <strong>Outcome 5:</strong> Demonstrating a security mindset by anticipating misuse, 
+  - Secure authentication and authorization workflows
+  - Modular server‑side architecture using Express middleware
+  - JWT‑based role validation
+  - Improved API design and maintainability
+  - Secure coding practices and vulnerability mitigation
+
+
+## Alignment to Course Outcomes
+
+  **Outcome 3:** Designing and evaluating secure computing solutions by 
+  implementing RBAC and enforcing architectural safeguards.
+
+  **Outcome 4:** Applying well‑founded techniques such as JWT authentication, 
+  middleware design, and secure API patterns.
+
+  **Outcome 5:** Demonstrating a security mindset by anticipating misuse, 
   validating user permissions, and protecting sensitive operations.
-</p>
 
-<h3>Reflection</h3>
-<p>
+
+## Reflection
+
   Enhancing this artifact taught me how to integrate secure authorization into an 
   existing full‑stack system. I learned how to structure middleware effectively, 
   manage JWT tokens, and enforce role‑based restrictions across the API. One of the 
@@ -99,7 +92,4 @@ Return response
   I improved both the backend logic and the user experience. This enhancement 
   strengthened my understanding of secure software design and prepared me for 
   real‑world full‑stack development.
-</p>
 
-</body>
-</html>

@@ -22,6 +22,19 @@
   padding: 1rem 2rem;
 }
 
+/* make content on page slightly smaller */
 .main-content {
   font-size: 0.95rem !important;
+}
+
+/* all links inside nav will be light pink */
+nav a {
+  color: #ffafcc;
+  font-weight: 500;
+}
+
+/* used for active link, whatever page user is on, navbar link will be darker */
+nav a.active {
+  color: #ff5d8f;
+  font-weight: 600;
 }

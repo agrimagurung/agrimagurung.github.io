@@ -1,0 +1,50 @@
+---
+---
+
+@import "jekyll-theme-cayman";
+
+/* Reduce header padding ( shrink banner height) */
+.page-header {
+  padding: 4rem 2rem;  
+  background: #ff5d8f; /* brink pink */
+}
+
+/* Make title smaller */
+.project-name {
+  font-size: 2.3rem; /* default is bigger */
+}
+
+/* Make subtitle smaller */
+.project-tagline {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+/* make content on page slightly smaller */
+.main-content {
+  font-size: 0.95rem !important;
+}
+
+/* all links inside nav will be light pink */
+nav a {
+  color: #ffafcc;
+  font-weight: 500;
+}
+
+/* used for active link, whatever page user is on, navbar link will be darker */
+nav a.active {
+  color: #ff5d8f;
+  font-weight: 600;
+}
+
+/* All markdown headers */
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  color: #ff5d8f;
+}

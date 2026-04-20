@@ -42,13 +42,13 @@
 ## Original Code
 
   View the original version of the project here:  
-  <a href="LINK_TO_ORIGINAL_CODE" target="_blank">Original Advising Course Planner Code</a>
+  <a href="https://github.com/agrimagurung/agrimagurung.github.io/tree/main/artifacts/original/course-advising/AdvisingAssistanceProgram" target="_blank">Original Advising Course Planner Code</a>
 
 
 ## Enhanced Code
 
   View the enhanced version with AVL tree implementation here:  
-  <a href="LINK_TO_ENHANCED_CODE" target="_blank">Enhanced Advising Course Planner Code</a>
+  <a href="https://github.com/agrimagurung/agrimagurung.github.io/tree/main/artifacts/enhanced/course-advising/AdvisingAssistanceProgram" target="_blank">Enhanced Advising Course Planner Code</a>
 
 
 ## Planned Enhancement: AVL Tree Implementation

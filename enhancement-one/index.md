@@ -32,13 +32,13 @@
 ## Original Code
 
   View the original version of the project here:  
-  <a href="LINK_TO_ORIGINAL_CODE" target="_blank">Original Travlr Getaways Code</a>
+  <a href="https://github.com/agrimagurung/agrimagurung.github.io/tree/main/artifacts/original/travlr-getaways/travlr" target="_blank">Original Travlr Getaways Code</a>
 
 
 ## Enhanced Code
 
   View the enhanced version with RBAC implemented here:  
-  <a href="LINK_TO_ENHANCED_CODE" target="_blank">Enhanced Travlr Getaways Code</a>
+  <a href="https://github.com/agrimagurung/agrimagurung.github.io/tree/main/artifacts/enhanced/travlr-getaways/travlr" target="_blank">Enhanced Travlr Getaways Code</a>
 
 
 ## Planned Enhancement: Role‑Based Access Control (RBAC)

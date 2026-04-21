@@ -34,15 +34,14 @@ nav {
   align-items: center;
   width: 100%;
   gap: 1rem;
-  text-align: center;
   flex-wrap: nowrap;
-
 }
 
 /* all links inside nav will be light pink */
 nav a {
   color: #ffafcc;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 /* used for active link, whatever page user is on, navbar link will be darker */

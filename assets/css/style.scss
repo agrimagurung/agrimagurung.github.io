@@ -27,12 +27,9 @@
   font-size: 0.95rem !important;
 }
 
-/* turn navv into flex container and center contents */
+/* center nav */
 nav {
-  display: flex;
-  justify-content: center;  /* centers horizontally */
-  align-items: center;      /* optional: vertical alignment */
-  gap: 1.5rem;               /* spacing between links */
+  text-align: center;
 }
 
 /* all links inside nav will be light pink */

@@ -23,7 +23,7 @@
   allowed me to systematically assess each artifact rather than focusing only on surface-level functionality.
 
   You can view the checklist here for reference:  
-  📄 <a href="/assets/code-review-checklist.pdf" target="_blank">Code Review Checklist (PDF)</a>
+  📄 <a href="/code-review/cs499_code_review_checklist.pdf" target="_blank">Code Review Checklist (PDF)</a>
 
   This process helped me strengthen my ability to evaluate full-stack applications 
   beyond functionality, focusing instead on architecture, scalability, and adherence 

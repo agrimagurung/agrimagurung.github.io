@@ -9,22 +9,15 @@
 
 # Professional Self-Assessment
 
-Throughout my Computer Science program at Southern New Hampshire University, I have developed both technical skills and a professional mindset that prepare me for entry-level software development roles. 
-This ePortfolio reflects my growth across software engineering, algorithms, and database systems through hands-on development and iterative improvement of existing projects.
+Through my experience studying Computer Science at Southern New Hampshire University, I’ve developed both technical and professional skills that helped me prepare me for software development jobs. This Computer Science ePortfolio has shown my growth across software engineering, algorithms, and database systems through hands-on development and cycles of reviewing and improving projects. 
 
-Over the course of the program, I strengthened my ability to analyze complex problems and design structured, efficient solutions. 
-I learned that software development is not only about writing code, but also about planning, testing, refining, and improving systems over time. This perspective helped me progress from building basic programs to developing more structured applications that emphasize performance, maintainability, and scalability.
+I’ve strengthened my ability to analyze problems and design code that is structured and efficient. I learned that software development is not just about writing code, but a cycle involving planning, testing, refining, and improving systems over time. This process has helped me grow from building basic programs to creating better developed applications that showcase performance, maintainability, and scalability.
 
-Although my coursework included both individual and group-based assignments, I gained valuable experience in both independent development and collaborative environments. 
-In team settings, I contributed to shared codebases and participated in discussions around design and implementation decisions. In individual work, I was responsible for developing complete solutions independently, which strengthened my problem-solving, debugging, and time management skills.
+My coursework includes both individual and group-based assignments, and I can confidently say that I’ve gained valuable insights working in both environments. When working in groups, I would create code and discuss various problems and solutions with my team to help create programs. When working by myself, I was responsible for creating solutions that involved strengthening my problem-solving, debugging, and time management skills.
 
-My academic experience also strengthened my foundation in key computer science areas. I gained experience designing modular software systems, refactoring and improving code structure, and applying object-oriented principles to build maintainable applications. 
-In data structures and algorithms, I worked with structures such as trees, arrays, and sorting logic to improve efficiency and problem-solving ability. I also developed experience with databases, including structured data storage and retrieval, which deepened my understanding of how applications manage and interact with data.
+My work throughout SNHU also strengthened my foundation in key computer science areas. I gained experience designing modular software systems, changing and improving code, and applying object-oriented principles to build easier to maintain applications. I learned about structures like trees and arrays when handling data structures and algorithms, gaining knowledge on which works best to improve an application’s performance. I’ve also gained experience with databases, including structured data storage and retrieval, which deepened my understanding of how applications manage and interact with data.
 
-A key part of my development has been building a security mindset. I now consider potential vulnerabilities in software design, including input validation, data handling, and system reliability. 
-This has helped me take a more responsible approach to building software that prioritizes security and data integrity.
+Developing a security centered mindset has been a vital aspect of my learning experience. I’m adept at analyzing and recognizing flaws in software design, which include issues dealing with data management, input validation, and system robustness. This has helped me develop software with a far more responsible approach that puts security and data integrity first.
 
-This portfolio brings together three major enhancements that demonstrate my growth in core computer science areas. Each artifact reflects my ability to evaluate existing systems and apply improvements that enhance efficiency, structure, and functionality. 
-Together, they demonstrate my readiness to contribute to software development teams in an entry-level professional role.
+This portfolio brings together three major enhancements that demonstrate my growth in core computer science areas. Each product showcases my skills in system analysis as well as in creating and putting into practice improvements to boost a program's efficiency, structure, and functionality. They overall show that I'm ready to make professional contributions to software development teams in any area. My ultimate goal however is to work in full stack development since I enjoy creating systems involving data-driven applications.
 
-Moving forward, I aim to pursue a career in software engineering or backend development, with a particular interest in building scalable systems and working on data-driven applications and system design.

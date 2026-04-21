@@ -14,3 +14,11 @@ Hello! My name is Agrima Gurung, and I'm in my final semester pursuing a Bachelo
 Within this portfolio, you will find a code review of my original work, detailed enhancements across key computer science domains, and reflections on the skills I developed throughout the process. Each project demonstrates my ability to improve software design, implement efficient algorithms, and strengthen database functionality.
 
 Use the navigation above to explore my professional self-assessment, code review, and project enhancements.
+
+
+## Portfolio Overview
+
+- 💻 Code Review: Analysis of my original project and improvements made  
+- 🧠 Software Design & Engineering: Enhancing structure and functionality  
+- ⚙️ Algorithms & Data Structures: Improving efficiency and logic  
+- 🗄️ Databases: Strengthening data storage and retrieval systems  

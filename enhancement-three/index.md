@@ -10,48 +10,42 @@
 
 ## Artifact Overview
 
-  The artifact selected for this enhancement is the **GridFit data pipeline and database system** 
-  developed in CS 340. This is a full-stack data-driven system that collects fitness data from a 
-  data acquisition (DAQ) device, processes it using Python, and stores it in a MongoDB database.
+The artifact selected for this enhancement is the **GridFit data pipeline and database system** developed in CS 340. This project is a full-stack, data-driven system that collects fitness-related metrics from a data acquisition (DAQ) device, processes the raw sensor input using Python, and stores structured results in a MongoDB database.
 
-  The system tracks real-time metrics such as voltage, current, power output, and session duration. 
-  At the end of each session, it generates summary statistics and stores them for analysis and leaderboard tracking.
+The system captures real-time performance data such as voltage, current, power output, and session duration during each user workout session. After each session completes, the backend computes summary statistics and persists them in the database for later retrieval and analysis.
 
-  This artifact demonstrates end-to-end database integration, connecting hardware input, backend processing, 
-  and database storage into a complete and functional data pipeline.
+Overall, this artifact demonstrates a complete end-to-end data pipeline that integrates hardware input, backend processing, and database storage into a unified system capable of supporting real-time analytics.
+
 
 
 ## Reason for Selection
 
-  I selected this artifact because it demonstrates real-world database integration and full-stack data processing. 
-  Unlike traditional database assignments, this project involves live data ingestion, transformation using Python, 
-  and storage in MongoDB, making it a strong example of applied database engineering.
+I selected this artifact because it represents a strong example of real-world database engineering beyond basic CRUD operations. Unlike traditional coursework projects, this system processes live data streams from hardware, transforms the data using Python, and stores the results in MongoDB for analytical use.
 
-  To enhance this system, I improved both performance and security. I implemented MongoDB aggregation pipelines 
-  to improve leaderboard and analytics queries, allowing the system to analyze trends more efficiently. I also added 
-  Redis caching to reduce repeated database calls and improve response time for frequently accessed data.
+To improve the system, I focused on both performance optimization and system security. On the performance side, I introduced MongoDB aggregation pipelines to shift computational workload from the application layer into the database. This allows ranking and analytics operations—such as leaderboard generation—to be executed more efficiently using database-native operations like `$group`, `$sort`, and `$limit`.
 
-  In addition, I improved system security by moving sensitive information, such as the MongoDB connection string, 
-  into environment variables. This prevents hardcoded credentials and aligns the project with secure coding practices.
+In addition, I implemented Redis caching in key leaderboard endpoints (`/daily`, `/weekly`, and `/all-time`). By storing frequently requested query results in memory using `setEx()` with a 60-second expiration time, the system significantly reduces redundant database queries and improves API response times under repeated access.
+
+From a security perspective, I improved the system by refactoring the codebase to remove hardcoded sensitive credentials. Specifically, I migrated the MongoDB connection string into environment variables using a `.env` file. This prevents accidental exposure of credentials and aligns the project with secure software development best practices.
 
 
 ## Original Code
 
-  View the original version of the project here:  
-  <a href="LINK_TO_ORIGINAL_CODE" target="_blank">Original GridFit Database System Code</a>
+View the original version of the project here:  
+<a href="https://github.com/agrimagurung/agrimagurung.github.io/tree/main/artifacts/original/gridfit/mern" target="_blank">Original GridFit Database System Code</a>
 
 
 ## Enhanced Code
 
-  View the enhanced version with caching and aggregation improvements here:  
-  <a href="LINK_TO_ENHANCED_CODE" target="_blank">Enhanced GridFit Database System Code</a>
+View the enhanced version with caching and aggregation improvements here:  
+<a href="" target="_blank">Enhanced GridFit Database System Code</a>
 
 
 ## Planned Enhancement: Aggregation and Caching System
 
-  The enhancement focuses on improving database performance and scalability by introducing MongoDB aggregation pipelines 
-  and Redis caching. This allows the system to efficiently compute leaderboard rankings and historical trends while 
-  minimizing database load.
+This enhancement focuses on improving database efficiency, scalability, and response time by introducing MongoDB aggregation pipelines and Redis caching into the leaderboard system.
+
+The workflow of the optimized system is as follows:
 
 ```
 User requests leaderboard (daily / weekly / all-time)
@@ -102,19 +96,12 @@ Frontend displays leaderboard and trend analytics
 
 ## Reflection
 
-  Enhancing this artifact strengthened my understanding of database design and full-stack system integration. 
-  By implementing MongoDB aggregation pipelines, I was able to significantly improve the efficiency of data analysis, 
-  especially for leaderboard generation and trend calculations.
+Enhancing this artifact significantly deepened my understanding of how database design decisions impact system performance and scalability. By implementing MongoDB aggregation pipelines, I was able to shift complex computation from the application layer into the database itself, resulting in more efficient and structured data processing.
 
-  Adding Redis caching helped reduce repeated database queries and improved overall system performance. This made 
-  the application more scalable and responsive under repeated usage.
+Adding Redis caching further improved system performance by reducing repeated database queries for frequently accessed leaderboard data. This made the system more responsive, especially under repeated or concurrent requests.
 
-  This project also reinforced the complexity of working with real-time data pipelines. Since the system relies on 
-  hardware-generated input, I had to carefully debug across multiple layers to ensure accurate data flow between 
-  the device, backend processing, and database storage.
+Working with this system also reinforced the complexity of building full-stack data pipelines that integrate hardware input with backend processing. Debugging data flow across multiple layers—device input, Python processing, API routes, and database storage—required careful attention to ensure consistency and correctness.
 
-  One important lesson I learned was the importance of secure coding practices. I discovered that my original project 
-  contained a hardcoded MongoDB connection string, which I replaced with environment variables to improve security.
+One important takeaway from this enhancement was the importance of secure coding practices. Discovering a hardcoded MongoDB connection string highlighted a real security risk, and migrating it into environment variables helped me understand how production systems manage sensitive configuration data.
 
-  Overall, this enhancement improved both the performance and security of the system while strengthening my ability 
-  to design and implement scalable, data-driven applications.
+Overall, this enhancement improved both the performance and security of the GridFit system while strengthening my ability to design scalable, data-driven applications.

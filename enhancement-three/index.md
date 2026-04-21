@@ -4,7 +4,7 @@
   <a href="/code-review/">Code Review</a> |
   <a href="/enhancement-one/">Software Design and Engineering </a> |
   <a href="/enhancement-two/">Algorithms and Data Structure</a> |
-  <a href="/enhancement-three/">Databases</a>
+  <a href="/enhancement-three/" class="active">Databases</a>
 </nav>
 
 # Enhancement Three: Databases

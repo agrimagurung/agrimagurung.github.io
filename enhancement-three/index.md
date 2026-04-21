@@ -38,7 +38,7 @@ View the original version of the project here:
 ## Enhanced Code
 
 View the enhanced version with caching and aggregation improvements here:  
-<a href="" target="_blank">Enhanced GridFit Database System Code</a>
+<a href="https://github.com/agrimagurung/agrimagurung.github.io/tree/main/artifacts/enhanced/gridfit" target="_blank">Enhanced GridFit Database System Code</a>
 
 
 ## Planned Enhancement: Aggregation and Caching System

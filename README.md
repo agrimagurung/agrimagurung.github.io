@@ -4,16 +4,19 @@
   <a href="/enhancement-one/">Software Design and Engineering</a> |
   <a href="/enhancement-two/">Algorithms and Data Structure</a> |
   <a href="/enhancement-three/">Databases</a>
+  <a href="https://agrimagurung.github.io/">Self-Assesment</a> |
 </nav>
 
 
 # Welcome
 
-Hello! My name is Agrima Gurung, and I'm in my final semester pursuing a Bachelor of Science in Computer Science. This ePortfolio represents the culmination of my academic journey and highlights my growth as a developer through the analysis and enhancement of prior projects.
+Hello, my name is Agrima Gurung, and I am in my final semester of the Bachelor of Science in Computer Science program at Southern New Hampshire University. This ePortfolio represents the culmination of my academic journey and highlights my growth as a developer through the evaluation and enhancement of previous academic projects.
 
-Within this portfolio, you will find a code review of my original work, detailed enhancements across key computer science domains, and reflections on the skills I developed throughout the process. Each project demonstrates my ability to improve software design, implement efficient algorithms, and strengthen database functionality.
+This portfolio showcases my ability to analyze existing code, identify areas for improvement, and apply meaningful enhancements across key areas of computer science, including software design and engineering, algorithms and data structures, and databases.
 
-Use the navigation above to explore my professional self-assessment, code review, and project enhancements.
+Each section of this ePortfolio demonstrates my progress in building more efficient, structured, and scalable software solutions, as well as my ability to reflect on and improve my development practices over time.
+
+Use the navigation above to explore my Professional Self-Assessment, Code Review, and project enhancements.
 
 
 ## Portfolio Overview
